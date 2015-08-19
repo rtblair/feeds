@@ -3,7 +3,7 @@
 @implementation nysAccount
 
 + (void)load { [Account registerClass:self]; }
-+ (NSString *)friendlyAccountName { return @"RSS/Atom"; }
++ (NSString *)friendlyAccountName { return @"Senate Dev"; }
 + (BOOL)requiresDomain { return YES; }
 + (NSString *)domainLabel { return @"Feed URL:"; }
 + (NSString *)domainPrefix { return @""; }
